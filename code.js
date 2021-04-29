@@ -24,3 +24,13 @@ function isFive(input){
         return false;
     }
 }
+
+function isEven(input) {
+    if ((typeof input == "number" || typeof input == "string" ) && input % 2 == 0 && input < Infinity) {
+        return true;
+    }else if((typeof input == "number" || typeof input == "string" ) && input % 2 != 0) {
+        return false;
+    }else{
+        return false;
+    }
+}
